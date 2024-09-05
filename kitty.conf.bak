@@ -1,0 +1,39 @@
+# font_family Monoisome
+font_family Input
+italic_font auto
+bold_italic_font auto
+font_size 16.0
+enable_audio_bell no
+
+#theme
+# include ./theme.conf
+
+tab_bar_edge top
+tab_bar_margin_width 0.0
+tab_bar_margin_height 0.0 0.0
+tab_bar_style separator
+tab_bar_align left
+tab_bar_min_tabs 2
+tab_switch_strategy previous
+tab_fade 0.25 0.5 0.75 1
+tab_separator " ┇"
+
+cursor_shape beam
+cursor_beam_thickness 5.0
+cursor_shape_unfocused beam
+cursor_stop_blinking_after 15.0
+# cursor_text_color #f2f739
+# cursor #aa0404
+
+
+scrollback_lines 2000
+scrollback_indicator_opacity 1.0
+wheel_scroll_min_lines 1
+# url_color #fca311
+url_style curly
+
+
+# BEGIN_KITTY_THEME
+# 1984 Orwellian
+include current-theme.conf
+# END_KITTY_THEME
